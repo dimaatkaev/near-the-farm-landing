@@ -28,6 +28,9 @@ body {
 }
 
 #showcase .product-name {
+    animation: pulse;
+    animation-duration: 2s;
+
     font-size: 68px;
     letter-spacing: 0.5px;
     line-height: 1.17;
@@ -37,6 +40,9 @@ body {
 }
 
 #showcase .product-description {
+    animation: pulse;
+    animation-duration: 2s;
+    
     font-size: 22px;
     line-height: 1.5;
     color: rgb(247, 239, 239);
