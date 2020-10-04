@@ -81,6 +81,16 @@ body {
     margin-left: auto;
     max-width: 650px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-d .leave-email-wrapper form {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 #section-d .leave-email-wrapper label {
@@ -97,7 +107,6 @@ body {
 #section-d .leave-email-wrapper label input::placeholder {
     font-size: 24px;
     color: rgba(56, 56, 56, 0.5);
-    font-style: italic
 }
 
 .section {
