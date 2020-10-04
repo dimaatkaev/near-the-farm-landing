@@ -15,7 +15,8 @@ body {
 }
 
 #showcase {
-    background-image: url("../img/ферма-3.jpg");
+    background-image: url("../img/ферма-3.jpeg");
+    background-color: #60b51a;
     background-size: cover;
     background-position: center;
     height: 100vh;
