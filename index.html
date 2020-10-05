@@ -70,6 +70,7 @@
     function sendEmail() {
         console.log('email to send', $('#email-to-send').val());
         $('#email-to-send').val('');
+        sendAnalyticsEvent()
     }
 </script>
 <div class="picture-c between-picture"></div>
