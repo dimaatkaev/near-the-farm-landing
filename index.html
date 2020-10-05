@@ -22,7 +22,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta property="og:image" content="logo.png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Near the farm</title>
 </head>
@@ -66,14 +66,20 @@
         </div>
     </div>
 </section>
+<script>
+    function sendEmail() {
+        console.log('email to send', $('#email-to-send').val());
+        $('#email-to-send').val('');
+    }
+</script>
 <div class="picture-c between-picture"></div>
 <section id="section-d" class="section">
-    <div class="leave-email-wrapper">
-        <form onsubmit="return false">
-            <div>Вам это интересно? Оставьте свой email и следите за обновлениями.</div>
-            <div><input type="email" placeholder="e-mail">
-                <input type="submit" value="OK" onclick="sendAnalyticsEvent()"></div>
-        </form>
+    <div class="contact-form">
+        <div>Вам это интересно? Оставьте свой email и следите за обновлениями.</div>
+        <div class="input-button-wrapper">
+            <input id="email-to-send" type="email" placeholder="e-mail">
+            <button onclick="sendEmail()">Send</button>
+        </div>
     </div>
 </section>
 <footer>

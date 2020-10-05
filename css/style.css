@@ -77,28 +77,25 @@ body {
     background: rgba(255, 255, 255, 0.5);
 }
 
-#section-d .leave-email-wrapper {
+#section-d .contact-form  {
     margin-right: auto;
     margin-left: auto;
     max-width: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-#section-d .leave-email-wrapper form {
     flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
-#section-d .leave-email-wrapper label {
+#section-d .input-button-wrapper input {
     font-size: 24px;
+    border: #9ca4b1 1px solid;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
 }
 
-#section-d .leave-email-wrapper input {
+#section-d .input-button-wrapper button {
     font-size: 24px;
     border: #9ca4b1 1px solid;
     border-radius: 0.5rem;
